@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "example_collection",
+  "stac_version": "1.0.0",
+  "description": "This can be **markdown** or a reference to a markdown file",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://tiles.maps.eox.at/wms?",
+      "type": "image/png",
+      "title": "example_collection",
+      "wms:layers": [
+        "terrain-light_3857"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./example_collection/1970/650f2cda-951a-4fb7-b16c-a0347af5d27f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Example Collection"
+    }
+  ],
+  "themes": [
+    "example"
+  ],
+  "tags": [
+    "example tag"
+  ],
+  "agency": [
+    "Example agency"
+  ],
+  "subcode": "EX1",
+  "sensor": [
+    "Sensorname"
+  ],
+  "satellite": [
+    "Satellitename"
+  ],
+  "insituSources": [
+    "Other insitu data"
+  ],
+  "endpointtype": "WMS",
+  "title": "Example Collection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-13T14:04:50.327501Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "Catalog",
+  "id": "template_catalog",
+  "stac_version": "1.0.0",
+  "description": "This catalog definition is part of the eodash catalog template, please update to fit your needs",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./example_collection/collection.json",
+      "type": "application/json",
+      "title": "Example Collection",
+      "code": "EX1",
+      "id": "example_collection",
+      "themes": [
+        "example"
+      ],
+      "subcode": "EX1",
+      "satellite": [
+        "Satellitename"
+      ],
+      "sensor": [
+        "Sensorname"
+      ],
+      "tags": [
+        "example tag"
+      ],
+      "agency": [
+        "Example agency"
+      ],
+      "insituSources": [
+        "Other insitu data"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Template Catalog"
+}
