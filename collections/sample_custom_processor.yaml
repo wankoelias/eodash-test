@@ -1,0 +1,24 @@
+Name: test_custom_processor
+Title: test_custom_processor
+EodashIdentifier: test_custom_processor
+Description: ""
+Themes:
+  - example theme
+Tags:
+  - example tag
+DataSource:
+  Spaceborne:
+    Satellite:
+      - example satellite
+    Sensor:
+      - example sensorname
+Agency:
+  - EEA
+Resources:
+  - Name: Custom-Endpoint
+    Python_Function_Location: "custom_handlers.custom_endpoint.execute"
+    CustomParameter: "test"
+    STAC_Url: "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/catalog.json"
+    Subset_Dates: 
+      - "2023-01-16"
+      - "2023-04-16"

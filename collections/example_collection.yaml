@@ -1,0 +1,23 @@
+Name: example_collection
+Title: Example Collection
+EodashIdentifier: EX1
+Description: This can be **markdown** or a reference to a markdown file
+Themes:
+  - example
+Tags:
+  - example tag
+DataSource:
+  Spaceborne:
+    Satellite:
+      - Satellitename
+    Sensor:
+      - Sensorname
+  InSitu:
+    - Other insitu data
+Agency:
+  - Example agency
+Resources:
+  - EndPoint: https://tiles.maps.eox.at/wms?
+    Name: WMS
+    LayerId: terrain-light_3857
+    MediaType: image/png

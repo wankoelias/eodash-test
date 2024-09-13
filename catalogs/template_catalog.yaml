@@ -1,0 +1,9 @@
+id: "template_catalog"
+title: "Template Catalog"
+description: "This catalog definition is part of the eodash catalog template, please update to fit your needs"
+endpoint: "https://organization.github.io/repository/repository/"
+default_base_layers: "layers/baselayers"
+default_overlay_layers: "layers/overlays"
+assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/main/"
+collections:
+  - example_collection
