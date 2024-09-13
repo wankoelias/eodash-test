@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/650f2cda-951a-4fb7-b16c-a0347af5d27f.json",
+      "href": "./example_collection/1970/1ce7263f-06e5-49ee-8f5c-b07bd719265d.json",
       "type": "application/json"
     },
     {
@@ -69,7 +69,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-09-13T14:04:50.327501Z",
+          "2024-09-13T14:30:38.985819Z",
           null
         ]
       ]
