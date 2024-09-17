@@ -3,8 +3,8 @@ Title: Lodging Capability
 EodashIdentifier: lodging_capability
 Description: ""
 Resources:
-  - Name: COG source
-    Bbox: [-123.4, 49.1, -123.2, 49.25]
+  - Name: COG source  
+    Bbox: [22.64524,54.94676,23.02416,55.30585]
     TimeEntries:
       - Time: "20240715"
         Assets:
