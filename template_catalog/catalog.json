@@ -38,6 +38,15 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Lodging Capability/collection.json",
+      "type": "application/json",
+      "title": "Lodging Capability",
+      "code": "lodging_capability",
+      "id": "Lodging Capability",
+      "subcode": "lodging_capability"
+    },
+    {
       "rel": "self",
       "href": "https://organization.github.io/repository/repository/catalog.json",
       "type": "application/json"

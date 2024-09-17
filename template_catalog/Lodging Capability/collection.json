@@ -1,0 +1,85 @@
+{
+  "type": "Collection",
+  "id": "Lodging Capability",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Lodging Capability/collection.json",
+      "type": "application/json",
+      "title": "Lodging Capability",
+      "endpointtype": "COG source",
+      "code": "lodging_capability",
+      "id": "Lodging Capability",
+      "subcode": "lodging_capability"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    }
+  ],
+  "subcode": "lodging_capability",
+  "title": "Lodging Capability",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.4,
+          49.1,
+          -123.2,
+          49.25
+        ],
+        [
+          -123.4,
+          49.1,
+          -123.2,
+          49.25
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-15T00:00:00Z",
+          "2024-07-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "lodging_capability"
+    ]
+  }
+}

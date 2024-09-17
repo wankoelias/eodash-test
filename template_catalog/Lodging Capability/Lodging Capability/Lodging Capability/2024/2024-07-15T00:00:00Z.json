@@ -1,0 +1,81 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2024-07-15T00:00:00Z",
+  "properties": {
+    "datetime": "2024-07-15T00:00:00Z"
+  },
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -123.4,
+                49.1
+              ],
+              [
+                -123.2,
+                49.1
+              ],
+              [
+                -123.2,
+                49.25
+              ],
+              [
+                -123.4,
+                49.25
+              ],
+              [
+                -123.4,
+                49.1
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Lodging Capability"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Lodging Capability"
+    }
+  ],
+  "assets": {
+    "source image": {
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-lodging/LIT_2024_07_MIV_lodging_cog.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -123.4,
+    49.1,
+    -123.2,
+    49.25
+  ],
+  "stac_extensions": [],
+  "collection": "Lodging Capability"
+}
