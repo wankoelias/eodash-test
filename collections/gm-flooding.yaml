@@ -1,0 +1,27 @@
+Name: Flooding Capability
+Title: Flooding Capability
+EodashIdentifier: flooding_capability
+Description: ""
+MapProjection:
+  name: 'EPSG:3035'
+  def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
+Resources:
+  - Name: COG source  
+    Bbox: [22.64524,54.94676,23.02416,55.30585]
+    Style: https://api.npoint.io/4fbe20aaf94ff44a33ec
+    TimeEntries:
+      - Time: "20240406"
+        Assets:
+          - Identifier: "source image"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_06_flooding_cog.tif
+      - Time: "20240411"
+        Assets:
+          - Identifier: "source image"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_11_flooding_cog.tif
+      - Time: "20240416"
+        Assets:
+          - Identifier: "source image"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_16_flooding_cog.tif
+    DataProjection:
+      name: 'EPSG:3035'
+      def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
