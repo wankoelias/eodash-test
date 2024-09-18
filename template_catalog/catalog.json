@@ -2,40 +2,26 @@
   "type": "Catalog",
   "id": "template_catalog",
   "stac_version": "1.0.0",
-  "description": "This catalog definition is part of the eodash catalog template, please update to fit your needs",
+  "description": "GTIF Baltics - EOX - Geomatrix",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Template Catalog"
+      "title": "GTIF Baltics"
     },
     {
       "rel": "child",
-      "href": "./example_collection/collection.json",
+      "href": "./Flooding Capability/collection.json",
       "type": "application/json",
-      "title": "Example Collection",
-      "code": "EX1",
-      "id": "example_collection",
-      "themes": [
-        "example"
-      ],
-      "subcode": "EX1",
-      "satellite": [
-        "Satellitename"
-      ],
-      "sensor": [
-        "Sensorname"
-      ],
-      "tags": [
-        "example tag"
-      ],
-      "agency": [
-        "Example agency"
-      ],
-      "insituSources": [
-        "Other insitu data"
-      ]
+      "title": "Flooding Capability",
+      "code": "flooding_capability",
+      "id": "Flooding Capability",
+      "subcode": "flooding_capability",
+      "eodash:mapProjection": {
+        "name": "EPSG:3035",
+        "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "child",
@@ -51,10 +37,23 @@
       }
     },
     {
+      "rel": "child",
+      "href": "./Logging Capability/collection.json",
+      "type": "application/json",
+      "title": "Logging Capability",
+      "code": "logging_capability",
+      "id": "Logging Capability",
+      "subcode": "logging_capability",
+      "eodash:mapProjection": {
+        "name": "EPSG:3035",
+        "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+      }
+    },
+    {
       "rel": "self",
       "href": "https://organization.github.io/repository/repository/catalog.json",
       "type": "application/json"
     }
   ],
-  "title": "Template Catalog"
+  "title": "GTIF Baltics"
 }

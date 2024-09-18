@@ -1,9 +1,9 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "2024-07-15T00:00:00Z",
+  "id": "2024-04-06T00:00:00Z",
   "properties": {
-    "datetime": "2024-07-15T00:00:00Z"
+    "datetime": "2024-04-06T00:00:00Z"
   },
   "geometry": {
     "type": "FeatureCollection",
@@ -60,18 +60,18 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Lodging Capability"
+      "title": "Flooding Capability"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Lodging Capability"
+      "title": "Flooding Capability"
     }
   ],
   "assets": {
     "source image": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-lodging/LIT_2024_07_MIV_lodging_cog.tif",
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_06_flooding_cog.tif",
       "type": "image/tiff",
       "eodash:proj4_def": {
         "name": "EPSG:3035",
@@ -89,7 +89,7 @@
     55.30585
   ],
   "stac_extensions": [],
-  "collection": "Lodging Capability",
+  "collection": "Flooding Capability",
   "eodash:proj4_def": {
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"

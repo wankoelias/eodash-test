@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Lodging Capability",
+  "id": "Logging Capability",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "item",
-      "href": "./Lodging Capability/2024/2024-07-15T00:00:00Z.json",
+      "href": "./Logging Capability/2024/2024-07-06T00:00:00Z.json",
       "type": "application/json",
-      "datetime": "2024-07-15T00:00:00Z",
+      "datetime": "2024-07-06T00:00:00Z",
       "assets": [
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-lodging/LIT_2024_07_MIV_lodging_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-logging/LIT_2024_06_07_logging_cog.tif"
       ]
     },
     {
@@ -31,10 +31,10 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Lodging Capability"
+      "title": "Logging Capability"
     }
   ],
-  "subcode": "lodging_capability",
+  "subcode": "logging_capability",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
@@ -44,7 +44,7 @@
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   },
   "endpointtype": "COG source",
-  "title": "Lodging Capability",
+  "title": "Logging Capability",
   "extent": {
     "spatial": {
       "bbox": [
@@ -59,8 +59,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-07-15T00:00:00Z",
-          "2024-07-15T00:00:00Z"
+          "2024-07-06T00:00:00Z",
+          "2024-07-06T00:00:00Z"
         ]
       ]
     }

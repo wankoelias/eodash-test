@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Lodging Capability",
+  "id": "Logging Capability",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,13 +12,13 @@
     },
     {
       "rel": "child",
-      "href": "./Lodging Capability/collection.json",
+      "href": "./Logging Capability/collection.json",
       "type": "application/json",
-      "title": "Lodging Capability",
+      "title": "Logging Capability",
       "endpointtype": "COG source",
-      "code": "lodging_capability",
-      "id": "Lodging Capability",
-      "subcode": "lodging_capability",
+      "code": "logging_capability",
+      "id": "Logging Capability",
+      "subcode": "logging_capability",
       "eodash:mapProjection": {
         "name": "EPSG:3035",
         "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
@@ -52,12 +52,12 @@
       "title": "GTIF Baltics"
     }
   ],
-  "subcode": "lodging_capability",
+  "subcode": "logging_capability",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   },
-  "title": "Lodging Capability",
+  "title": "Logging Capability",
   "extent": {
     "spatial": {
       "bbox": [
@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-07-15T00:00:00Z",
-          "2024-07-15T00:00:00Z"
+          "2024-07-06T00:00:00Z",
+          "2024-07-06T00:00:00Z"
         ]
       ]
     }
@@ -87,7 +87,7 @@
   "license": "proprietary",
   "summaries": {
     "subcode": [
-      "lodging_capability"
+      "logging_capability"
     ]
   }
 }
