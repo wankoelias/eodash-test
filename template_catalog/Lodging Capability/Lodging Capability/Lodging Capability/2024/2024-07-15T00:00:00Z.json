@@ -43,6 +43,14 @@
   },
   "links": [
     {
+      "rel": "style",
+      "href": "https://api.npoint.io/4fbe20aaf94ff44a33ec",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "source image"
+      ]
+    },
+    {
       "rel": "root",
       "href": "../../../../catalog.json",
       "type": "application/json",
