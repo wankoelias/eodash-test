@@ -20,6 +20,15 @@
       ]
     },
     {
+      "rel": "item",
+      "href": "./Flooding Austria/2024/2024-09-15T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-15T00:00:00Z",
+      "assets": [
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_4557564_2742407_cog.tif"
+      ]
+    },
+    {
       "rel": "style",
       "href": "https://api.npoint.io/a55d899b9c34c51a6013",
       "type": "text/cog-styles",
@@ -59,7 +68,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-09-20T00:00:00Z",
+          "2024-09-15T00:00:00Z",
           "2024-09-20T00:00:00Z"
         ]
       ]
