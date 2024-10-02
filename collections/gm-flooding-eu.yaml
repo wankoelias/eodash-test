@@ -1,6 +1,6 @@
 Name: Flooding Austria
 Title: Flooding Austria
-EodashIdentifier: flooding_capability_eu
+EodashIdentifier: flooding_capability_aut
 Description: ""
 MapProjection:
   name: 'EPSG:3035'
