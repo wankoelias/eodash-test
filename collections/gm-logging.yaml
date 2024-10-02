@@ -1,6 +1,6 @@
-Name: Logging Capability
-Title: Logging Capability
-EodashIdentifier: logging_capability
+Name: Logging Lithuania
+Title: Logging Lithuania
+EodashIdentifier: logging_capability_lit
 Description: ""
 MapProjection:
   name: 'EPSG:3035'
