@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./Flooding Capability/collection.json",
+      "href": "./Flooding Lithuania/collection.json",
       "type": "application/json",
-      "title": "Flooding Capability",
+      "title": "Flooding Lithuania",
       "code": "flooding_capability",
-      "id": "Flooding Capability",
+      "id": "Flooding Lithuania",
       "subcode": "flooding_capability",
       "eodash:mapProjection": {
         "name": "EPSG:3035",

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Flooding Capability",
+  "id": "Flooding Lithuania",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./Flooding Capability/2024/2024-04-06T00:00:00Z.json",
+      "href": "./Flooding Lithuania/2024/2024-04-06T00:00:00Z.json",
       "type": "application/json",
       "datetime": "2024-04-06T00:00:00Z",
       "assets": [
@@ -21,7 +21,7 @@
     },
     {
       "rel": "item",
-      "href": "./Flooding Capability/2024/2024-04-11T00:00:00Z.json",
+      "href": "./Flooding Lithuania/2024/2024-04-11T00:00:00Z.json",
       "type": "application/json",
       "datetime": "2024-04-11T00:00:00Z",
       "assets": [
@@ -30,7 +30,7 @@
     },
     {
       "rel": "item",
-      "href": "./Flooding Capability/2024/2024-04-16T00:00:00Z.json",
+      "href": "./Flooding Lithuania/2024/2024-04-16T00:00:00Z.json",
       "type": "application/json",
       "datetime": "2024-04-16T00:00:00Z",
       "assets": [
@@ -49,7 +49,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Flooding Capability"
+      "title": "Flooding Lithuania"
     }
   ],
   "subcode": "flooding_capability",
@@ -62,7 +62,7 @@
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   },
   "endpointtype": "COG source",
-  "title": "Flooding Capability",
+  "title": "Flooding Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

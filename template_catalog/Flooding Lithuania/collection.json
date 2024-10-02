@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Flooding Capability",
+  "id": "Flooding Lithuania",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./Flooding Capability/collection.json",
+      "href": "./Flooding Lithuania/collection.json",
       "type": "application/json",
-      "title": "Flooding Capability",
+      "title": "Flooding Lithuania",
       "endpointtype": "COG source",
       "code": "flooding_capability",
-      "id": "Flooding Capability",
+      "id": "Flooding Lithuania",
       "subcode": "flooding_capability",
       "eodash:mapProjection": {
         "name": "EPSG:3035",
@@ -57,7 +57,7 @@
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   },
-  "title": "Flooding Capability",
+  "title": "Flooding Lithuania",
   "extent": {
     "spatial": {
       "bbox": [
