@@ -1,6 +1,6 @@
-Name: Lodging Capability
-Title: Lodging Capability
-EodashIdentifier: lodging_capability
+Name: Lodging Lithuania
+Title: Lodging Lithuania
+EodashIdentifier: lodging_capability_lit
 Description: ""
 MapProjection:
   name: 'EPSG:3035'
