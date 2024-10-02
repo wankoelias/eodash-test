@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Flooding EU",
+  "id": "Flooding Austria",
   "stac_version": "1.0.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "item",
-      "href": "./Flooding EU/2024/2024-09-20T00:00:00Z.json",
+      "href": "./Flooding Austria/2024/2024-09-20T00:00:00Z.json",
       "type": "application/json",
       "datetime": "2024-09-20T00:00:00Z",
       "assets": [
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/EU_2024_09_20_flooding_4734834_2972395_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/EU_2024_09_20_flooding_4557564_2742407_cog.tif"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Flooding EU"
+      "title": "Flooding Austria"
     }
   ],
   "subcode": "flooding_capability_eu",
@@ -44,7 +44,7 @@
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   },
   "endpointtype": "COG source",
-  "title": "Flooding EU",
+  "title": "Flooding Austria",
   "extent": {
     "spatial": {
       "bbox": [

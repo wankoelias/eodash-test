@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./Flooding EU/collection.json",
+      "href": "./Flooding Austria/collection.json",
       "type": "application/json",
-      "title": "Flooding EU",
+      "title": "Flooding Austria",
       "code": "flooding_capability_eu",
-      "id": "Flooding EU",
+      "id": "Flooding Austria",
       "subcode": "flooding_capability_eu",
       "eodash:mapProjection": {
         "name": "EPSG:3035",
