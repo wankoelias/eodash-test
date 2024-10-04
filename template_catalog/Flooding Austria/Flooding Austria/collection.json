@@ -1,0 +1,82 @@
+{
+  "type": "Collection",
+  "id": "Flooding Austria",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Baltics"
+    },
+    {
+      "rel": "item",
+      "href": "./Flooding Austria/2024/2024-09-20T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-20T00:00:00Z",
+      "assets": [
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/EU_2024_09_20_flooding_4557564_2742407_cog.tif"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./Flooding Austria/2024/2024-09-15T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-15T00:00:00Z",
+      "assets": [
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q1_4564656_2742407_cog.tif",
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q2_4564656_2742407_cog.tif",
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q3_4564656_2742407_cog.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://api.npoint.io/a55d899b9c34c51a6013",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "AT Q1",
+        "AT Q2",
+        "AT Q3"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Flooding Austria"
+    }
+  ],
+  "subcode": "flooding_capability_aut",
+  "eodash:mapProjection": {
+    "name": "EPSG:3035",
+    "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:3035",
+    "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+  },
+  "endpointtype": "COG source",
+  "title": "Flooding Austria",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.415283,
+          46.346928,
+          17.094727,
+          49.016257
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-15T00:00:00Z",
+          "2024-09-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
