@@ -1,10 +1,8 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "2024-04-16T00:00:00Z",
-  "properties": {
-    "datetime": "2024-04-16T00:00:00Z"
-  },
   "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -40,6 +38,15 @@
         "properties": {}
       }
     ]
+  },
+  "bbox": [
+    22.64524,
+    54.94676,
+    23.02416,
+    55.30585
+  ],
+  "properties": {
+    "datetime": "2024-04-16T00:00:00Z"
   },
   "links": [
     {
@@ -82,13 +89,6 @@
       ]
     }
   },
-  "bbox": [
-    22.64524,
-    54.94676,
-    23.02416,
-    55.30585
-  ],
-  "stac_extensions": [],
   "collection": "Flooding Lithuania",
   "eodash:proj4_def": {
     "name": "EPSG:3035",
