@@ -10,6 +10,10 @@ Resources:
     Bbox: [9.415283,46.346928,17.094727,49.016257]
     Style: https://api.npoint.io/a55d899b9c34c51a6013
     TimeEntries:
+      - Time: "20240911"
+        Assets:
+          - Identifier: "AT"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_11_flooding_4564656_2742407_cog.tif
       - Time: "20240920"
         Assets:
           - Identifier: "source image"
@@ -22,8 +26,6 @@ Resources:
             File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q2_4564656_2742407_cog.tif
           - Identifier: "AT Q3"
             File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q3_4564656_2742407_cog.tif
-          - Identifier: "AT 2024-09-11"
-            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_11_flooding_4564656_2742407_cog.tif
     DataProjection:
       name: 'EPSG:3035'
       def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
