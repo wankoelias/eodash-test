@@ -12,6 +12,15 @@
     },
     {
       "rel": "item",
+      "href": "./Flooding Austria/2024/2024-09-11T00:00:00Z.json",
+      "type": "application/json",
+      "datetime": "2024-09-11T00:00:00Z",
+      "assets": [
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_11_flooding_4564656_2742407_cog.tif"
+      ]
+    },
+    {
+      "rel": "item",
       "href": "./Flooding Austria/2024/2024-09-20T00:00:00Z.json",
       "type": "application/json",
       "datetime": "2024-09-20T00:00:00Z",
@@ -27,8 +36,7 @@
       "assets": [
         "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q1_4564656_2742407_cog.tif",
         "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q2_4564656_2742407_cog.tif",
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q3_4564656_2742407_cog.tif",
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_11_flooding_4564656_2742407_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/AT_2024_09_20_flooding_Q3_4564656_2742407_cog.tif"
       ]
     },
     {
@@ -38,8 +46,7 @@
       "asset:keys": [
         "AT Q1",
         "AT Q2",
-        "AT Q3",
-        "AT 2024-09-11"
+        "AT Q3"
       ]
     },
     {
@@ -74,7 +81,7 @@
     "temporal": {
       "interval": [
         [
-          "2024-09-15T00:00:00Z",
+          "2024-09-11T00:00:00Z",
           "2024-09-20T00:00:00Z"
         ]
       ]
