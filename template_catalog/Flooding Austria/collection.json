@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Flooding Austria",
   "stac_version": "1.0.0",
-  "description": "",
+  "description": "##Interesting title",
   "links": [
     {
       "rel": "root",
