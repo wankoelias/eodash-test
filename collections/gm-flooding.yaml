@@ -8,7 +8,7 @@ MapProjection:
 Resources:
   - Name: COG source  
     Bbox: [22.64524,54.94676,23.02416,55.30585]
-    Style: https://api.npoint.io/a55d899b9c34c51a6013
+    Style: https://api.npoint.io/85c43058073e5051f880
     TimeEntries:
       - Time: "20240401"
         Assets:
