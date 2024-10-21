@@ -16,7 +16,7 @@
       "type": "application/json",
       "datetime": "2024-04-01T00:00:00Z",
       "assets": [
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d1_flooding_5125000_3625000_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/LIT_2024_04_d1_flooding_5125000_3625000_cog.tif"
       ]
     },
     {
@@ -25,7 +25,7 @@
       "type": "application/json",
       "datetime": "2024-04-11T00:00:00Z",
       "assets": [
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d2_flooding_5125000_3625000_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/LIT_2024_04_d2_flooding_5125000_3625000_cog.tif"
       ]
     },
     {
@@ -34,7 +34,7 @@
       "type": "application/json",
       "datetime": "2024-04-21T00:00:00Z",
       "assets": [
-        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d3_flooding_5125000_3625000_cog.tif"
+        "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/output/LIT_2024_04_d3_flooding_5125000_3625000_cog.tif"
       ]
     },
     {
