@@ -10,18 +10,18 @@ Resources:
     Bbox: [22.64524,54.94676,23.02416,55.30585]
     Style: https://api.npoint.io/a55d899b9c34c51a6013
     TimeEntries:
-      - Time: "20240406"
+      - Time: "20240401"
         Assets:
-          - Identifier: "source image"
-            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_06_flooding_cog.tif
+          - Identifier: "LIT d1"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d1_flooding_5125000_3625000_cog.tif
       - Time: "20240411"
         Assets:
-          - Identifier: "source image"
-            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_11_flooding_cog.tif
-      - Time: "20240416"
+          - Identifier: "LIT d2"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d2_flooding_5125000_3625000_cog.tif
+      - Time: "20240421"
         Assets:
-          - Identifier: "source image"
-            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_16_flooding_cog.tif
+          - Identifier: "LIT d3"
+            File: https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d3_flooding_5125000_3625000_cog.tif
     DataProjection:
       name: 'EPSG:3035'
       def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
