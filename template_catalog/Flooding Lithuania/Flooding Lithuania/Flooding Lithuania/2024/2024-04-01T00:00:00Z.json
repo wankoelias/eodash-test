@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "2024-04-16T00:00:00Z",
+  "id": "2024-04-01T00:00:00Z",
   "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -46,7 +46,7 @@
     55.30585
   ],
   "properties": {
-    "datetime": "2024-04-16T00:00:00Z"
+    "datetime": "2024-04-01T00:00:00Z"
   },
   "links": [
     {
@@ -54,7 +54,7 @@
       "href": "https://api.npoint.io/a55d899b9c34c51a6013",
       "type": "text/cog-styles",
       "asset:keys": [
-        "source image"
+        "LIT d1"
       ]
     },
     {
@@ -77,8 +77,8 @@
     }
   ],
   "assets": {
-    "source image": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_16_flooding_cog.tif",
+    "LIT d1": {
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-flooding/LIT_2024_04_d1_flooding_5125000_3625000_cog.tif",
       "type": "image/tiff",
       "eodash:proj4_def": {
         "name": "EPSG:3035",
