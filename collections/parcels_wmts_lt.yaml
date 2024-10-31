@@ -1,7 +1,7 @@
 Name: parcels_wmts_lt
 Title: parcels_wmts_lt
 EodashIdentifier: EX1
-Description: This can be **markdown** or a reference to a markdown file
+Description: This can be  **markdown** or a reference to a markdown file
 Themes:
   - example
 Tags:
