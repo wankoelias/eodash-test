@@ -1,6 +1,6 @@
 id: "template_catalog"
 title: "GTIF Baltics"
-description: "GTIF Baltics - EOX - Geomatrix"
+description: "GTIF Baltics - EOX - Geomatrix "
 endpoint: "https://organization.github.io/repository/repository/"
 default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
