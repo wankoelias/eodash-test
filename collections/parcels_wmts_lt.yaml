@@ -1,0 +1,23 @@
+Name: example_collection
+Title: Example Collection
+EodashIdentifier: EX1
+Description: This can be **markdown** or a reference to a markdown file
+Themes:
+  - example
+Tags:
+  - example tag
+DataSource:
+  Spaceborne:
+    Satellite:
+      - Satellitename
+    Sensor:
+      - Sensorname
+  InSitu:
+    - Other insitu data
+Agency:
+  - Example agency
+Resources:
+  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wmts?
+    Name: WMTS
+    LayerId: GTIFBaltic:master
+    MediaType: image/png
