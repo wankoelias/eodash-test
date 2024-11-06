@@ -17,11 +17,11 @@ DataSource:
 Agency:
   - Example agency
 Resources:
-  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wmts
-    Name: marinedatastore
-    Type: WMTSCapabilities
-    LayerId: GTIFBaltic:master
+  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
+    Name: WMS
+    Type: OverwriteTimes
     MediaType: image/png
-    Query:
-      Start: "2024-10-01T00:00:00Z"
-      End: "2024-10-31T00:00:00Z"
+    Styles: [""]
+    LayerId: LIT_2024_SM_m04_q1_q2_q3
+    Times:
+      - '2024-04-01'
