@@ -22,6 +22,6 @@ Resources:
     Type: OverwriteTimes
     MediaType: image/png
     Styles: [""]
-    LayerId: LIT_2024_SM_m04_q1_q2_q3
+    LayerId: GTIFBaltic:LIT_2024_SM_m04_q1_q2_q3
     Times:
       - '2024-04-01'
