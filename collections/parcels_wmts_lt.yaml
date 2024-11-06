@@ -22,3 +22,6 @@ Resources:
     Type: WMTSCapabilities
     LayerId: GTIFBaltic:master
     MediaType: image/png
+    Query:
+      Start: "2024-10-01T00:00:00Z"
+      End: "2024-10-31T00:00:00Z"
