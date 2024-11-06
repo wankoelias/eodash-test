@@ -18,7 +18,7 @@ Agency:
   - Example agency
 Resources:
   - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wmts
-    Name: Parcels
+    Name: Custom-Endpoint
     Type: WMTSCapabilities
     LayerId: GTIFBaltic:master
     MediaType: image/png
