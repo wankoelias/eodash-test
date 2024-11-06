@@ -1,5 +1,5 @@
-Name: example_collection
-Title: Example Collection
+Name: parcels_lt
+Title: parcels_lt
 EodashIdentifier: EX1
 Description: This can be **markdown** or a reference to a markdown file
 Themes:
@@ -17,8 +17,8 @@ DataSource:
 Agency:
   - Example agency
 Resources:
-  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wmts
-    Name: marinedatastore
-    Type: WMTSCapabilities
+  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
+    Name: WMS
+    Type: WMS
     LayerId: GTIFBaltic:master
     MediaType: image/png
