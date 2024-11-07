@@ -24,5 +24,8 @@ Resources:
     Styles: [""]
     LayerId: GTIFBaltic:LIT_2024_SM_m04_q1_q2_q3
     OverwriteBBox: [20,53,27,57]
-    Times:
-      - '2024'
+    DateTimeInterval:
+      Start: "2024-04-01T00:00:00Z"
+      End: "2024-04-30T00:00:00Z"
+      Timedelta:
+        days: 1
