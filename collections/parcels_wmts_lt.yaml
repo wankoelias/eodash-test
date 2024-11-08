@@ -16,16 +16,14 @@ DataSource:
     - Other insitu data
 Agency:
   - Example agency
-MapProjection:
-  name: 'EPSG:3035'
-  def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
 Resources:
   - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
+    DataProjection: 4326
     Name: WMS
     Type: OverwriteTimes
     MediaType: image/png
     Styles: [""]
     LayerId: GTIFBaltic:LIT_2024_SM_m04_q1_q2_q3
-    OverwriteBBox: [20,53,27,57]
+    OverwriteBBox: [22.64524,54.94676,23.02416,55.30585]
     Times:
       - '2024'
