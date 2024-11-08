@@ -16,9 +16,11 @@ DataSource:
     - Other insitu data
 Agency:
   - Example agency
+MapProjection:
+  name: 'EPSG:3035'
+  def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
 Resources:
   - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
-    DataProjection: 3857
     Name: WMS
     Type: OverwriteTimes
     MediaType: image/png
