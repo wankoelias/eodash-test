@@ -18,11 +18,11 @@ Agency:
   - Example agency
 Resources:
   - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
-    DataProjection: 4326
+    DataProjection: 3857
     Name: WMS
     Type: OverwriteTimes
     MediaType: image/png
-    Styles: [""]
+    Styles: ["sagris_soil_moisture_q1"]
     LayerId: GTIFBaltic:LIT_2024_SM_m04_q1_q2_q3
     OverwriteBBox: [22.64524,54.94676,23.02416,55.30585]
     Times:
