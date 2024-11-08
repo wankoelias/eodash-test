@@ -17,7 +17,7 @@ DataSource:
 Agency:
   - Example agency
 Resources:
-  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
+  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wmts
     DataProjection: 3857
     Name: WMTSCapabilities
     Type: OverwriteTimes
