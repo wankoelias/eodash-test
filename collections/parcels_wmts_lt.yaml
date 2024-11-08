@@ -19,7 +19,7 @@ Agency:
 Resources:
   - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
     DataProjection: 3857
-    Name: WMS
+    Name: WMTSCapabilities
     Type: OverwriteTimes
     MediaType: image/png
     Styles: ["sagris_soil_moisture_q1"]
