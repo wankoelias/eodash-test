@@ -1,0 +1,21 @@
+Name: flooding
+Title: flooding collection
+EodashIdentifier: flooding
+Themes:
+  - water
+Tags:
+  - placeholder
+Satellite:
+  - placeholder
+Sensor:
+  - placeholder
+Agency:
+  - placeholder
+Provider:
+    - Name: placeholder
+License: MIT
+Subcollections:
+  - Identifier: gm_flooding
+    Collection: gm-flooding
+  - Identifier: gm_flooding-at
+    Collection: gm_flooding-at
