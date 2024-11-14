@@ -16,7 +16,7 @@ Provider:
     - Name: placeholder
 License: MIT
 Subcollections:
-  - Identifier: gm_flooding
+  - Identifier: gm-flooding
     Collection: gm-flooding
-  - Identifier: gm_flooding-at
-    Collection: gm_flooding-at
+  - Identifier: gm-flooding-at
+    Collection: gm-flooding-at
