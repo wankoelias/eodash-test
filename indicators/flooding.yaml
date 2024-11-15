@@ -3,6 +3,5 @@ title: "Flooding"
 EodashIdentifier: "flooding"
 Description: "Flooding indicator"
 collections:
-  - flooding
-  - gm-lodging
-  - gm-logging
+  - gm-flooding-at
+  - gm-flooding
