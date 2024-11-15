@@ -6,5 +6,8 @@ default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
 assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/main/"
 collections:
-  - lithuania
   - gm-flooding-at
+  - gm-flooding
+  - gm-lodging
+  - gm-logging
+  - parcels_wmts_lt

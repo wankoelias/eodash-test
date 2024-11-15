@@ -3,7 +3,7 @@ Title: parcels_lt
 EodashIdentifier: EX1
 Description: This can be **markdown** or a reference to a markdown file
 Themes:
-  - example
+  - water
 Tags:
   - example tag
 DataSource:
