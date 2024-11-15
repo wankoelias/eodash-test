@@ -1,0 +1,8 @@
+name: "flooding"
+title: "Flooding"
+EodashIdentifier: "flooding"
+Description: "Flooding indicator"
+collections:
+  - flooding
+  - gm-lodging
+  - gm-logging
