@@ -6,8 +6,8 @@ MapProjection:
   name: 'EPSG:3035'
   def: '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs'
 Resources:
-  - Group: Austria
   - Name: COG source
+    Group: Austria
     Bbox: [9.415283,46.346928,17.094727,49.016257]
     Style: https://api.npoint.io/85c43058073e5051f880
     TimeEntries:
