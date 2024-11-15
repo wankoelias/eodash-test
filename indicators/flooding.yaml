@@ -1,7 +1,7 @@
 Name: "flooding"
-title: "Flooding"
+Title: "Flooding"
 EodashIdentifier: "flooding"
 Description: "Flooding indicator"
-collections:
+Collections:
   - gm-flooding-at
   - gm-flooding
