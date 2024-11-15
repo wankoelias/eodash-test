@@ -1,0 +1,31 @@
+Name: sm_06_lt
+Title: sm_06_lt
+EodashIdentifier: EX1
+Description: This can be **markdown** or a reference to a markdown file
+Themes:
+  - water
+Tags:
+  - example tag
+DataSource:
+  Spaceborne:
+    Satellite:
+      - Satellitename
+    Sensor:
+      - Sensorname
+  InSitu:
+    - Other insitu data
+Agency:
+  - Example agency
+Resources:
+  - EndPoint: https://server1.landimage.info/geoserver/gwc/service/wms
+    DataProjection: 3857
+    Name: WMS
+    Type: OverwriteTimes
+    MediaType: image/png
+    Styles: ["sagris_soil_moisture_q1"]
+    LayerId: GTIFBaltic:LIT_2024_SM_m06_q1_q2_q3
+    OverwriteBBox: [22.64524,54.94676,23.02416,55.30585]
+    TileSize: 256
+    Version: "1.1.1"
+    Times:
+      - '2024-06-01'

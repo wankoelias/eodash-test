@@ -1,0 +1,7 @@
+Name: "soil moisture"
+Title: "soil moisture"
+EodashIdentifier: "soilmoisture"
+Description: "soil moisture indicator"
+Collections:
+  - sm_04_lt
+  - sm_06_lt
