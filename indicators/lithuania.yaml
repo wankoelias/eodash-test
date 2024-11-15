@@ -1,0 +1,9 @@
+Name: "lithuania"
+Title: "lithuania"
+EodashIdentifier: "lithuania"
+Description: "lithuania indicator"
+Collections:
+  - gm-flooding
+  - gm-lodging
+  - gm-logging
+  - parcels_wmts_lt
